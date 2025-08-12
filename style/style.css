@@ -40,7 +40,6 @@ img {
 
 .title-container {
   margin-top: 10px;
-  color: #9a7b1e;
 }
 .title-container h1 {
   font-size: x-large;
@@ -50,12 +49,13 @@ img {
 .title-container small {
   text-transform: uppercase;
   margin-bottom: 15px;
+  color: #C69D23;
 }
 .title-container a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #9a7b1e;
+  color: #C69D23;
   text-decoration: none;
   transition: all 0.3s ease-in;
 }

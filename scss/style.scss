@@ -29,7 +29,6 @@ img {
 
 .title-container {
   margin-top: 10px;
-  color: $primary-darck;
   h1 {
     font-size: x-large;
     text-transform: uppercase;
@@ -38,12 +37,13 @@ img {
   small {
     text-transform: uppercase;
     margin-bottom: 15px;
+    color: $primary-color;
   }
   a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: $primary-darck;
+    color: $primary-color;
     text-decoration: none;
     transition: all 0.3s ease-in;
     &:hover {
