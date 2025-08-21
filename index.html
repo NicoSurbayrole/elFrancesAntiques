@@ -3,11 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="./img/martillo.svg"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="./img/martillo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="./style/style.css" />
     <title>EL FRANCÉS ANTIQUES</title>
   </head>
@@ -15,16 +11,18 @@
     <header class="nav">
       <div class="title-container">
         <a href="./index.html">
-          <img
-            src="./img/martillo.svg"
-            alt="logo martillo"
-          />
+          <img src="./img/martillo.svg" alt="logo martillo" />
           <h1>el francés antiques</h1>
           <small>art & deco</small>
         </a>
       </div>
       <div class="buscador">
-        <input type="search" name="buscar" id="buscador" placeholder="Buscar Producto..." />
+        <input
+          type="search"
+          name="buscar"
+          id="buscador"
+          placeholder="Buscar Producto..."
+        />
         <button id="serch">
           <img
             class="lupa"
@@ -32,7 +30,14 @@
             alt="imagen lupa de busqueda"
           />
         </button>
-        <img src="./img/carrito.svg " alt="imagen carrito de compras" />
+        <div class="cart-container">
+          <img
+            src="./img/carrito.svg "
+            alt="imagen carrito de compras"
+            id="carritoImg"
+          />
+          <span class="cart-counter">0</span>
+        </div>
       </div>
       <nav>
         <ul class="navItems">
