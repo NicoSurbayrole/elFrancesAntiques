@@ -3,38 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="./img/logo_martillo.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./img/martillo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>EL FRANCÉS ANTIQUES</title>
   </head>
   <body>
-    <header>
-      <div>
-        <img src="./img/logo_martillo.png" alt="logo martillo" />
-        <h1>el frances antiques</h1>
-        <small>art & deco</small>
+    <header class="nav">
+      <div class="title-container">
+        <a href="./index.html">
+          <img src="./img/martillo.svg" alt="logo martillo" />
+          <h1>el francés antiques</h1>
+          <small>art & deco</small>
+        </a>
+      </div>
+      <div class="buscador">
+        <input
+          type="search"
+          name="buscar"
+          id="buscador"
+          placeholder="Buscar Producto..."
+        />
+        <button id="serch">
+          <img
+            class="lupa"
+            src="./img/serch.svg"
+            alt="imagen lupa de busqueda"
+          />
+        </button>
+        <div class="cart-container">
+          <img
+            src="./img/carrito.svg "
+            alt="imagen carrito de compras"
+            id="carritoImg"
+          />
+          <span class="cart-counter">0</span>
+        </div>
       </div>
       <nav>
-        <ul>
-            <li>inicio</li>
-            <li>contacto</li>
-            <li>sobre nosotros</li>
-            <li>sistema de subastas</li>
+        <ul class="navItems">
+          <li>inicio</li>
+          <li>contacto</li>
+          <li>sobre nosotros</li>
+          <li>sistema de subastas</li>
         </ul>
       </nav>
-      <div>
-        <div>
-            <input type="search" name="" id="">
-            <button >
-                <img src="./img/serch.svg" alt="imagen lupa de busqueda">
-            </button>
-        </div>
-        <img src="./img/carrito.svg" alt="imagen carrito de compras">
-      </div>
     </header>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
