@@ -10,7 +10,7 @@
       "auction_price": "80.00",
       "catalog_id": "2",
       "orden": "-1",
-      "class": ""
+      "class": ["sillon", "sillones"]
     },
     {
       "product_id": "468",
@@ -22,7 +22,7 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "-1",
-      "class": ""
+      "class": ["sillon", "sillones"]
     },
     {
       "product_id": "480",
@@ -34,7 +34,7 @@
       "auction_price": "150.00",
       "catalog_id": "2",
       "orden": "-1",
-      "class": ""
+      "class": ["arcos", "arco", "madera"]
     },
     {
       "product_id": "395",
@@ -46,7 +46,7 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "-1",
-      "class": ""
+      "class": ["lamparas", "lampara", "porcelana"]
     },
     {
       "product_id": "478",
@@ -58,7 +58,7 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "-1",
-      "class": ""
+      "class": ["mascara", "mascaras", "esgrima"]
     },
     {
       "product_id": "343",
@@ -70,7 +70,7 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "-1",
-      "class": ""
+      "class": ["poltrona", "poltronas"]
     },
     {
       "product_id": "462",
@@ -82,7 +82,7 @@
       "auction_price": "300.00",
       "catalog_id": "2",
       "orden": "0",
-      "class": "featured",
+      "class": ["madera", "barra", "barras"],
       "featured": true
     },
     {
@@ -108,7 +108,7 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "class": "featured",
+      "class": ["alfombra", "alfomras"],
       "featured": true
     },
     {
