@@ -2,12 +2,12 @@
 
 # Intalacion:
 
-bash´´´
+´´´bash
 git clon https://github.com/NicoSurbayrole/elFrancesAntiques
 ´´´
-bash´´´
+´´´bash
 cd elFrancesAntiques 
 ´´´
-bash´´´
+´´´bash
 npm install
 ´´´
