@@ -1,15 +1,5 @@
 # Clon de la web **["El Frances Antiques"](https://www.elfrancesantiques.com)**
 
-# Tecnologias:
-
-- Html
-- Css
-- JavaScript
-- Sass
-- Node.js
-
----
-
 # Descripcion:
 
 Esta aplicación web es un **clon de la página de Hernán Cajaraville**, alias _El Francés Antiques_, un martillero público. Su objetivo principal es **mostrar los productos a la venta y los próximos remates**, permitiendo al usuario final explorar las antigüedades disponibles.
@@ -22,7 +12,17 @@ Esta aplicación web es un **clon de la página de Hernán Cajaraville**, alias 
 
 ---
 
-## Público objetivo
+# Tecnologias:
+
+- Html
+- Css
+- JavaScript
+- Sass
+- Node.js
+
+---
+
+## Público objetivo:
 
 Esta aplicación está dirigida a **amantes de las antigüedades y coleccionistas** interesados en adquirir productos únicos o participar en remates.
 
