@@ -2,7 +2,7 @@
   "productos": [
     {
       "product_id": "479",
-      "image": "https://elfrancesantiques.com.ar/sistema/_lib/file/img/imagenes_articulos/img_68855f10b70e8.jpg",
+      "image": "../img/productosImg/1img_68855f10b70e8.jpg",
       "name": "1 Sillón de ratán con armazón de madera lustrada, con dos almohadones.",
       "description": "",
       "price": "200.00",
@@ -14,7 +14,7 @@
     },
     {
       "product_id": "468",
-      "image": "https://elfrancesantiques.com.ar/sistema/_lib/file/img/imagenes_articulos/img_688badb22ada0.jpg",
+      "image": "../img/productosImg/2img_688badb22ada0.jpg",
       "name": "2 Sillones caña malaca y ratán giratorios.",
       "description": "",
       "price": "300.00",
@@ -26,7 +26,7 @@
     },
     {
       "product_id": "480",
-      "image": "https://elfrancesantiques.com.ar/sistema/_lib/file/img/imagenes_articulos/img_68855d8bbb377.jpg",
+      "image": "../img/productosImg/3img_68855d8bbb377.jpg",
       "name": "Antiquísimo arcón en madera de pinotea",
       "description": "",
       "price": "250.00",
@@ -38,7 +38,7 @@
     },
     {
       "product_id": "395",
-      "image": "https://elfrancesantiques.com.ar/sistema/_lib/file/img/imagenes_articulos/img_6882a082a41ec.jpg",
+      "image": "../img/productosImg/4img_6882a082a41ec.jpg",
       "name": "Lámpara de 1 luz en porcelana biscuit con 4 personajes de época y pantalla.",
       "description": "",
       "price": "100.00",
@@ -50,7 +50,7 @@
     },
     {
       "product_id": "478",
-      "image": "https://elfrancesantiques.com.ar/sistema/_lib/file/img/imagenes_articulos/img_68867eeb6ae38.jpg",
+      "image": "../img/productosImg/5img_68867eeb6ae38.jpg",
       "name": "Máscara antigua para esgrima.",
       "description": "",
       "price": "70.00",
@@ -62,7 +62,7 @@
     },
     {
       "product_id": "343",
-      "image": "https://elfrancesantiques.com.ar/sistema/_lib/file/img/imagenes_articulos/img_6886781f57a54.jpg",
+      "image": "../img/productosImg/6img_6886781f57a54.jpg",
       "name": "Pequeña poltrona inglesa para dormitorio tapizada en pana bordeaux con 1 almohadón.",
       "description": "",
       "price": "150.00",
@@ -74,7 +74,7 @@
     },
     {
       "product_id": "462",
-      "image": "https://elfrancesantiques.com.ar/sistema/_lib/file/img/imagenes_articulos/img_688b9c8f98acc.jpg",
+      "image": "../img/productosImg/7img_688b9c8f98acc.jpg",
       "name": "Barra bar estilo inglés antigua en madera de nogal con tallas y puerta;",
       "description": "",
       "price": "950.00",
@@ -87,7 +87,7 @@
     },
     {
       "product_id": "534",
-      "image": "https://elfrancesantiques.com.ar/sistema/_lib/file/img/imagenes_articulos/img_687e9e076566c.jpg",
+      "image": "../img/productosImg/8img_687e9e076566c.jpg",
       "name": "Alfombra Bokhara 1.77 x 1.47 mts",
       "description": "",
       "price": "0.00",
@@ -100,7 +100,7 @@
     },
     {
       "product_id": "535",
-      "image": "https://elfrancesantiques.com.ar/sistema/_lib/file/img/imagenes_articulos/img_687ea12926d2a.jpg",
+      "image": "../img/productosImg/9img_687ea12926d2a.jpg",
       "name": "Alfombra tribal Beshir tejida a mano 1.65 x 0.87.",
       "description": "",
       "price": "0.00",
@@ -113,7 +113,7 @@
     },
     {
       "product_id": "531",
-      "image": "https://elfrancesantiques.com.ar/sistema/_lib/file/img/imagenes_articulos/img_687e90fe3496a.jpg",
+      "image": "../img/productosImg/10img_687e90fe3496a.jpg",
       "name": "Alfombra tribal tejida a mano Qashqai.",
       "description": "",
       "price": "0.00",
@@ -126,7 +126,7 @@
     },
     {
       "product_id": "533",
-      "image": "https://elfrancesantiques.com.ar/sistema/_lib/file/img/imagenes_articulos/img_687e9a73bdcc5.jpg",
+      "image": "../img/productosImg/11img_687e9a73bdcc5.jpg",
       "name": "Alfombra Tribal Tekke 1.60 x 1.15 mts",
       "description": "",
       "price": "0.00",
@@ -139,7 +139,7 @@
     },
     {
       "product_id": "532",
-      "image": "https://elfrancesantiques.com.ar/sistema/_lib/file/img/imagenes_articulos/img_687e980e3cff5.jpg",
+      "image": "../img/productosImg/12img_689b892caa357.jpg",
       "name": "Alfombra turcomana Ersari o Tekke tejida a mano.",
       "description": "",
       "price": "0.00",
