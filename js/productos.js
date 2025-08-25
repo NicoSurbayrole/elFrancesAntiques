@@ -1,28 +1,29 @@
-const productos = fetch("../data/Productos.JSON").then((res) => res.json());
+export function productos() {
+  const productos = fetch("../data/Productos.JSON").then((res) => res.json());
 
-const main = document.getElementById("main");
+  const main = document.getElementById("main");
 
-const divMain = document.createElement("div");
-divMain.className = "mainContent";
-main.appendChild(divMain);
+  const divMain = document.createElement("div");
+  divMain.className = "mainContent";
+  main.appendChild(divMain);
 
-const aside = document.createElement("aside");
-aside.className = "sidebar";
-divMain.appendChild(aside);
+  const aside = document.createElement("aside");
+  aside.className = "sidebar";
+  divMain.appendChild(aside);
 
-const titelProductos = document.createElement("h2");
-titelProductos.className = "tituloProductos";
-titelProductos.innerHTML = "todos los articulos";
-divMain.appendChild(titelProductos);
+  const titelProductos = document.createElement("h2");
+  titelProductos.className = "tituloProductos";
+  titelProductos.innerHTML = "todos los articulos";
+  divMain.appendChild(titelProductos);
 
-mostrarProductos()
+  mostrarProductos();
 
-function mostrarProductos() {
-  productos.then(({ productos }) => {
-  const section = document.createElement("section");
-   section.className = "cardsContain"
-  productos.slice(0, 12).forEach((producto) => {
-    section.innerHTML += `
+  function mostrarProductos() {
+    productos.then(({ productos }) => {
+      const section = document.createElement("section");
+      section.className = "cardsContain";
+      productos.slice(0, 12).forEach((producto) => {
+        section.innerHTML += `
     <div class="cardInfo">
       <img src=${producto.image}>
       <header class="cardHeader"> 
@@ -33,23 +34,38 @@ function mostrarProductos() {
         <button class="cardButton" id="${producto.product_id}">ver producto</button>
       </footer> 
     </div>`;
-    divMain.appendChild(section);
-  });
-  singleProduct()
-});
-}
-
-function singleProduct(){
-    let button = document.getElementsByClassName("cardButton")
-    localStorage.removeItem("productId")
-  
-  //la idea despues es que el id renderice ese elemento unico y hacerle una vista detallada
-  for(let i = 0; i < button.length; i++){
-    button[i].addEventListener("click", () =>{
-    localStorage.setItem("productId", button[i].id)
-    window.location.assign(`../pages/producto.html`)
-    console.log(`seleccionaste el elemento con el id: ${button[i].id}`)
-    })
+        divMain.appendChild(section);
+      });
+      singleProduct();
+    });
   }
-}
 
+  function singleProduct() {
+    let button = document.getElementsByClassName("cardButton");
+    localStorage.removeItem("productId");
+
+    for (let i = 0; i < button.length; i++) {
+      button[i].addEventListener("click", () => {
+        localStorage.setItem("productId", button[i].id);
+        window.location.assign(`../pages/singleProducto.html`);
+        console.log(`seleccionaste el elemento con el id: ${button[i].id}`);
+      });
+    }
+  }
+
+  const serch = document.getElementById("serch");
+  const buscador = document.getElementById("buscador");
+
+  function buscar() {
+    window.location.replace("../pages/productoFiltrado.html");
+    localStorage.setItem("productoFIltrado", buscador.value);
+  }
+
+  serch.addEventListener("click", buscar);
+  buscador.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      buscar();
+    }
+  });
+}
