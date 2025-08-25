@@ -6,8 +6,6 @@ let singelProductMain = document.getElementById("mainSingleProduct");
 
 const section = document.createElement("section");
 
-showSingleProduct();
-
 function showSingleProduct() {
   productos.then(({ productos }) => {
     productos.forEach((producto) => {
@@ -31,3 +29,4 @@ function showSingleProduct() {
     });
   });
 }
+showSingleProduct();
