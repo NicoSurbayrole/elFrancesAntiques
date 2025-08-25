@@ -41,6 +41,7 @@ function mostrarProductos() {
 
 function singleProduct(){
     let button = document.getElementsByClassName("cardButton")
+    localStorage.removeItem("productId")
   
   //la idea despues es que el id renderice ese elemento unico y hacerle una vista detallada
   for(let i = 0; i < button.length; i++){
