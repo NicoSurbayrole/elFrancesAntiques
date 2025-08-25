@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./img/martillo.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="./style/style.css" />
-    <title>EL FRANCÉS ANTIQUES</title>
-  </head>
-  <body>
-    <header class="nav">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>Productos</title>
+</head>
+<body>
+     <header class="nav">
       <div class="title-container">
-        <a href="./index.html">
-          <img src="./img/martillo.svg" alt="logo martillo" />
+        <a href="../index.html">
+          <img src="../img/martillo.svg" alt="logo martillo" />
           <h1>el francés antiques</h1>
           <small>art & deco</small>
         </a>
@@ -26,13 +25,13 @@
         <button id="serch">
           <img
             class="lupa"
-            src="./img/serch.svg"
+            src="../img/serch.svg"
             alt="imagen lupa de busqueda"
           />
         </button>
         <div class="cart-container">
           <img
-            src="./img/carrito.svg "
+            src="../img/carrito.svg "
             alt="imagen carrito de compras"
             id="carritoImg"
           />
@@ -41,15 +40,16 @@
       </div>
       <nav>
         <ul class="navItems">
-          <li>inicio</li>
-          <li>contacto</li>
-          <li>sobre nosotros</li>
-          <li>sistema de subastas</li>
+          <a href="../index.html"><li>inicio</li></a>
+          <a href="#"></a><li>contacto</li></a>
+          <a href="#"></a><li>sobre nosotros</li></a>
+          <a href="#"></a><li>sistema de subastas</li></a>
         </ul>
       </nav>
     </header>
-    <main id="main"></main>
-    
-    <script type="module" src="./js/productos.js"></script>
-  </body>
+    <main id="mainSingleProduct">
+        
+    </main>
+    <script type="module" src="../js/singleProduct.js"></script>
+</body>
 </html>

@@ -1,11 +1,19 @@
 @use "./variables" as *;
 @use "./fonts" as *;
+@use "./productos" as *;
+@use "./singleProduct" as *;
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Cinzel", "ElFrances", sans-serif;
+}
+
+a{
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 // img {
