@@ -1,21 +1,21 @@
-const busqueda = localStorage.getItem("productoFIltrado")
+const busqueda = localStorage.getItem("productoFIltrado");
 const productos = fetch("../data/Productos.JSON").then((res) => res.json());
 
 const buscador = document.getElementById("buscador");
 const main = document.getElementById("mainFiltroProductos");
 
-function buscarProducto(productos, busqueda ) {
-  console.log(busqueda)
-   productos.then(({ productos }) => {
-     let newProductos = nuevoArrProductos(productos);
-     let productosFiltrados = [];
-     for (let i = 0; i < newProductos.length; i++) {
-       newProductos[i].categori.filter((nameCategori) => {
-         if (nameCategori === busqueda) productosFiltrados.push(newProductos[i]);
-       });
-     }
-     mostrarProductoFiltrado(productosFiltrados);
-     buscador.value = "";
+function buscarProducto(productos, busqueda) {
+  console.log(busqueda);
+  productos.then(({ productos }) => {
+    let newProductos = nuevoArrProductos(productos);
+    let productosFiltrados = [];
+    for (let i = 0; i < newProductos.length; i++) {
+      newProductos[i].categori.filter((nameCategori) => {
+        if (nameCategori === busqueda) productosFiltrados.push(newProductos[i]);
+      });
+    }
+    mostrarProductoFiltrado(productosFiltrados);
+    buscador.value = "";
   });
 }
 
@@ -33,31 +33,30 @@ buscador.addEventListener("change", (e) => {
   buscarProducto(productos, busqueda);
 });
 
-
 function mostrarProductoFiltrado(productosFiltrados) {
   main.innerHTML = "";
   console.log(productosFiltrados);
   const divMain = document.createElement("div");
   divMain.className = "mainContent";
   main.appendChild(divMain);
-  
+
   const aside = document.createElement("aside");
   aside.className = "sidebar";
   divMain.appendChild(aside);
-  
+
   const titelProductos = document.createElement("h2");
   titelProductos.className = "tituloProductos";
   titelProductos.innerHTML = "todos los articulos";
   divMain.appendChild(titelProductos);
-  
+
   const section = document.createElement("section");
   section.className = "cardsContain";
   main.appendChild(section);
-  
+
   section.innerHTML = "";
-  
+
   console.log(section);
-  
+
   productosFiltrados.forEach((productoFiltrados) => {
     section.innerHTML += `
     <div class="cardInfo">
@@ -73,7 +72,14 @@ function mostrarProductoFiltrado(productosFiltrados) {
     `;
     divMain.appendChild(section);
   });
+  let verProdcuto = document.getElementsByClassName(`cardButton`);
+  for (const producto of verProdcuto) {
+    producto.addEventListener("click", (e) => {
+      let btnId = e.target.id;
+      localStorage.setItem("productId", btnId);
+      window.location.assign(`../pages/singleProducto.html`);
+    });
+  }
 }
 
-
-buscarProducto(productos,busqueda)
+buscarProducto(productos, busqueda);
