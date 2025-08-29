@@ -16,7 +16,7 @@ function showSingleProduct() {
                 <header>
                     <h2>${producto.name}</h2>
                 </header>
-                <article>
+                <article id="singleProduct-description">
                     <p>${producto.description}</p>
                     <small>${producto.price}</small>
                 </article>
@@ -27,6 +27,48 @@ function showSingleProduct() {
         return;
       }
     });
+    const article = document.getElementById("singleProduct-description");
+    addToCart(article);
   });
 }
+let cart;
+let productCuantity;
+
+function addToCart(article) {
+  if (!localStorage.getItem("productCart")) {
+    localStorage.setItem("productCart", JSON.stringify([]));
+  }
+  const addCartBtn = document.createElement("button");
+  addCartBtn.innerHTML = "agregar al carrito";
+  addCartBtn.className = "addToCart";
+  addCartBtn.id = localStorage.getItem("productId");
+  addCartBtn.addEventListener("click", (e) => {
+    productos.then(({ productos }) =>{
+        productos.forEach((producto) => {
+          if (producto.product_id === e.target.id) {
+            cart = JSON.parse(localStorage.getItem("productCart"));
+            if(cart.length === 0){
+              cart.push(producto);
+              localStorage.setItem("productCart", JSON.stringify(cart))  
+            }else{
+              let buscado = cart.find((serch) => serch.product_id === producto.product_id)
+             if(buscado){
+              console.log("El producto ya esta en el carrito");
+             }else{
+              cart.push(producto);
+              localStorage.setItem("productCart", JSON.stringify(cart))
+              console.log("El producto fue agregado correctamente");
+             }
+            }
+            return;
+          }
+        })
+      }
+    );
+  });
+
+  console.log(article);
+  article.appendChild(addCartBtn);
+}
+
 showSingleProduct();
