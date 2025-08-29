@@ -78,6 +78,7 @@ export const cartCounter = () => {
     cantidad.innerHTML = 0;
     return;
   }
-  cantidad.innerHTML = cart.length;
-}
 
+  cantidad.innerHTML = cart.length;
+  return;
+};

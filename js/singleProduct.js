@@ -1,4 +1,4 @@
-import {cartCounter} from "./productos.js";
+import { cartCounter } from "./productos.js";
 
 let productId = localStorage.getItem("productId");
 console.log(productId);
@@ -44,34 +44,32 @@ function addToCart(article) {
   addCartBtn.className = "addToCart";
   addCartBtn.id = localStorage.getItem("productId");
   addCartBtn.addEventListener("click", (e) => {
-    productos.then(({ productos }) =>{
-        productos.forEach((producto) => {
-          if (producto.product_id === e.target.id) {
-            cart = JSON.parse(localStorage.getItem("productCart"));
-            if(cart.length === 0){
-              cart.push(producto);
-              localStorage.setItem("productCart", JSON.stringify(cart))  
-            }else{
-              let buscado = cart.find((serch) => serch.product_id === producto.product_id)
-             if(buscado){
+    productos.then(({ productos }) => {
+      productos.forEach((producto) => {
+        if (producto.product_id === e.target.id) {
+          cart = JSON.parse(localStorage.getItem("productCart"));
+          if (cart.length === 0) {
+            cart.push(producto);
+            localStorage.setItem("productCart", JSON.stringify(cart));
+          } else {
+            let buscado = cart.find(
+              (serch) => serch.product_id === producto.product_id
+            );
+            if (buscado) {
               console.log("El producto ya esta en el carrito");
-             }else{
+            } else {
               cart.push(producto);
-              localStorage.setItem("productCart", JSON.stringify(cart))
+              localStorage.setItem("productCart", JSON.stringify(cart));
               console.log("El producto fue agregado correctamente");
-             }
             }
-            return;
           }
-        })
-      }
-    );
-    cartCounter();
-    setTimeout(()=>{
-      location.reload();
-    },800);
+          return;
+        }
+      });
+      cartCounter();
+    });
   });
-  
+
   console.log(article);
   article.appendChild(addCartBtn);
 }
