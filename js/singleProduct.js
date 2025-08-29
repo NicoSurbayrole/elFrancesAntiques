@@ -1,3 +1,5 @@
+import {cartCounter} from "./productos.js";
+
 let productId = localStorage.getItem("productId");
 console.log(productId);
 const productos = fetch("../data/Productos.JSON").then((res) => res.json());
@@ -32,7 +34,6 @@ function showSingleProduct() {
   });
 }
 let cart;
-let productCuantity;
 
 function addToCart(article) {
   if (!localStorage.getItem("productCart")) {
@@ -65,10 +66,15 @@ function addToCart(article) {
         })
       }
     );
+    cartCounter();
+    setTimeout(()=>{
+      location.reload();
+    },800);
   });
-
+  
   console.log(article);
   article.appendChild(addCartBtn);
 }
 
 showSingleProduct();
+cartCounter();
