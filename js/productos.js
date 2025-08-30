@@ -69,3 +69,16 @@ export function productos() {
     }
   });
 }
+
+export const cartCounter = () => {
+  const cart = JSON.parse(localStorage.getItem("productCart"));
+  const cantidad = document.getElementById("cart");
+
+  if (!cart) {
+    cantidad.innerHTML = 0;
+    return;
+  }
+
+  cantidad.innerHTML = cart.length;
+  return;
+};
