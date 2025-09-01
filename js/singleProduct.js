@@ -51,16 +51,26 @@ function addToCart(article) {
           if (cart.length === 0) {
             cart.push(producto);
             localStorage.setItem("productCart", JSON.stringify(cart));
+            Swal.fire({
+              title: `El producto con el id: ${producto.product_id}, se agrego correctamente!`,
+              icon: "success",
+            });
           } else {
             let buscado = cart.find(
               (serch) => serch.product_id === producto.product_id
             );
             if (buscado) {
-              console.log("El producto ya esta en el carrito");
+              Swal.fire({
+                title: `El producto con el id: ${producto.product_id}, ya esta en el carrito!`,
+                icon: "error",
+              });
             } else {
+              Swal.fire({
+                title: `El producto con el id: ${producto.product_id}, se agrego correctamente!`,
+                icon: "success",
+              });
               cart.push(producto);
               localStorage.setItem("productCart", JSON.stringify(cart));
-              console.log("El producto fue agregado correctamente");
             }
           }
           return;
