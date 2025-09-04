@@ -82,3 +82,7 @@ export const cartCounter = () => {
   cantidad.innerHTML = cart.length;
   return;
 };
+
+const cart = document.getElementById("carritoImg");
+
+cart.addEventListener("click", ()=> window.location.replace("../pages/carrito.html"));
