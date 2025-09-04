@@ -229,4 +229,10 @@ a {
   transition-duration: 0.7s;
 }
 
+.cartContent {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */

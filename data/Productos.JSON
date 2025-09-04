@@ -10,7 +10,8 @@
       "auction_price": "80.00",
       "catalog_id": "2",
       "orden": "-1",
-      "categori": ["sillon", "sillones"]
+      "categori": ["sillon", "sillones"],
+      "cantidad": "1"
     },
     {
       "product_id": "468",
@@ -22,7 +23,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "-1",
-      "categori": ["sillon", "sillones"]
+      "categori": ["sillon", "sillones"],
+      "cantidad": "1"
     },
     {
       "product_id": "480",
@@ -34,7 +36,8 @@
       "auction_price": "150.00",
       "catalog_id": "2",
       "orden": "-1",
-      "categori": ["arcos", "arco", "madera"]
+      "categori": ["arcos", "arco", "madera"],
+      "cantidad": "1"
     },
     {
       "product_id": "395",
@@ -46,7 +49,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "-1",
-      "categori": ["lamparas", "lampara", "porcelana"]
+      "categori": ["lamparas", "lampara", "porcelana"],
+      "cantidad": "1"
     },
     {
       "product_id": "478",
@@ -58,7 +62,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "-1",
-      "categori": ["mascara", "mascaras", "esgrima"]
+      "categori": ["mascara", "mascaras", "esgrima"],
+      "cantidad": "1"
     },
     {
       "product_id": "343",
@@ -70,7 +75,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "-1",
-      "categori": ["poltrona", "poltronas"]
+      "categori": ["poltrona", "poltronas"],
+      "cantidad": "1"
     },
     {
       "product_id": "462",
@@ -83,7 +89,8 @@
       "catalog_id": "2",
       "orden": "0",
       "categori": ["madera", "barra", "barras"],
-      "featured": true
+      "featured": true,
+      "cantidad": "1"
     },
     {
       "product_id": "534",
@@ -96,7 +103,8 @@
       "catalog_id": "2",
       "orden": "0",
       "categori": ["alfombra", "alfombras"],
-      "featured": true
+      "featured": true,
+      "cantidad": "1"
     },
     {
       "product_id": "535",
@@ -109,7 +117,8 @@
       "catalog_id": "2",
       "orden": "0",
       "categori": ["alfombra", "alfomras"],
-      "featured": true
+      "featured": true,
+      "cantidad": "1"
     },
     {
       "product_id": "531",
@@ -122,7 +131,8 @@
       "catalog_id": "2",
       "orden": "0",
       "categori": ["alfombra", "alfomras", "tejida", "mano"],
-      "featured": true
+      "featured": true,
+      "cantidad": "1"
     },
     {
       "product_id": "533",
@@ -135,7 +145,8 @@
       "catalog_id": "2",
       "orden": "0",
       "categori": ["alfombra", "alfomras"],
-      "featured": true
+      "featured": true,
+      "cantidad": "1"
     },
     {
       "product_id": "532",
@@ -148,7 +159,8 @@
       "catalog_id": "2",
       "orden": "0",
       "categori": ["alfombra", "alfomras"],
-      "featured": true
+      "featured": true,
+      "cantidad": "1"
     },
     {
       "product_id": "527",
@@ -161,7 +173,8 @@
       "catalog_id": "2",
       "orden": "0",
       "categori": ["caja", "cajas","plata", "gustavo", "bardies"],
-      "featured": true
+      "featured": true,
+      "cantidad": "1"
     },
     {
       "product_id": "542",
@@ -174,7 +187,8 @@
       "catalog_id": "2",
       "orden": "0",
       "categori": ["encendedor", "encendedores", "plata"],
-      "featured": true
+      "featured": true,
+      "cantidad": "1"
     },
     {
       "product_id": "42",
@@ -187,7 +201,8 @@
       "catalog_id": "2",
       "orden": "0",
       "categori": ["copas", "cristal", "ingles"],
-      "featured": true
+      "featured": true,
+      "cantidad": "1"
     },
     {
       "product_id": "541",
@@ -200,7 +215,8 @@
       "catalog_id": "2",
       "orden": "0",
       "categori": ["reloj", "relojes"],
-      "featured": true
+      "featured": true,
+      "cantidad": "1"
     },
     {
       "product_id": "540",
@@ -213,7 +229,8 @@
       "catalog_id": "2",
       "orden": "0",
       "categori": ["reloj", "relojes", "pulsera"],
-      "featured": true
+      "featured": true,
+      "cantidad": "1"
     },
     {
       "product_id": "37",
@@ -225,7 +242,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["silla", "sillas", "desmontable"]
+      "categori": ["silla", "sillas", "desmontable"],
+      "cantidad": "1"
     },
     {
       "product_id": "34",
@@ -237,7 +255,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["mesa", "mesas", "ingles"]
+      "categori": ["mesa", "mesas", "ingles"],
+      "cantidad": "1"
     },
     {
       "product_id": "143",
@@ -249,7 +268,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["sillon", "sillones", "ingles","chippendale"]
+      "categori": ["sillon", "sillones", "ingles","chippendale"],
+      "cantidad": "1"
     },
     {
       "product_id": "247",
@@ -261,7 +281,8 @@
       "auction_price": "60.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["sillon", "sillones"]
+      "categori": ["sillon", "sillones"],
+      "cantidad": "1"
     },
     {
       "product_id": "142",
@@ -273,7 +294,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["silla", "sillas", "ingles", "chippendale"]
+      "categori": ["silla", "sillas", "ingles", "chippendale"],
+      "cantidad": "1"
     },
     {
       "product_id": "544",
@@ -285,7 +307,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori":["alfombra", "alfombras", "persa"]
+      "categori":["alfombra", "alfombras", "persa"],
+      "cantidad": "1"
     },
     {
       "product_id": "553",
@@ -297,7 +320,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["araña", "arañas", "6 luces"]
+      "categori": ["araña", "arañas", "6 luces"],
+      "cantidad": "1"
     },
      {
       "product_id": "547",
@@ -309,7 +333,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["bandeja", "bandejas", "art deco", "art-deco"]
+      "categori": ["bandeja", "bandejas", "art deco", "art-deco"],
+      "cantidad": "1"
     },
     {
       "product_id": "72",
@@ -321,7 +346,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["bandeja", "bandejas", "plateria"]
+      "categori": ["bandeja", "bandejas", "plateria"],
+      "cantidad": "1"
     },
     {
       "product_id": "32",
@@ -333,7 +359,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["cristaleria", "bombonera"]
+      "categori": ["cristaleria", "bombonera"],
+      "cantidad": "1"
     },
     {
       "product_id": "508",
@@ -345,7 +372,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["bombonera", "cristaleria", "cristal"]
+      "categori": ["bombonera", "cristaleria", "cristal"],
+      "cantidad": "1"
     },
     {
       "product_id": "529",
@@ -357,7 +385,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["botellon", "botellones", "cristal"]
+      "categori": ["botellon", "botellones", "cristal"],
+      "cantidad": "1"
     },
     {
       "product_id": "561",
@@ -369,7 +398,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["fuente", "fuentes"]
+      "categori": ["fuente", "fuentes"],
+      "cantidad": "1"
     },
     {
       "product_id": "48",
@@ -393,7 +423,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["cuchillo", "chucillos", "plateria"]
+      "categori": ["cuchillo", "chucillos", "plateria"],
+      "cantidad": "1"
     },
     {
       "product_id": "254",
@@ -405,7 +436,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["cuchillo", "chucillos", "plateria"]
+      "categori": ["cuchillo", "chucillos", "plateria"],
+      "cantidad": "1"
     },
     {
       "product_id": "249",
@@ -417,7 +449,8 @@
       "auction_price": "550.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["cuchillo", "chucillos", "plateria", "plata"]
+      "categori": ["cuchillo", "chucillos", "plateria", "plata"],
+      "cantidad": "1"
     },
     {
       "product_id": "251",
@@ -429,7 +462,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["cuchillo", "chucillos", "plateria", "plata", "oro"]
+      "categori": ["cuchillo", "chucillos", "plateria", "plata", "oro"],
+      "cantidad": "1"
     },
     {
       "product_id": "526",
@@ -441,7 +475,8 @@
       "auction_price": "0.00",
       "catalog_id": "2",
       "orden": "0",
-      "categori": ["despojador", "vidrio", "artistico"]
+      "categori": ["despojador", "vidrio", "artistico"],
+      "cantidad": "1"
     }
   ]
 }
