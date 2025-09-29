@@ -2,7 +2,7 @@
 
 # Descripcion:
 
-Esta aplicación web esta inspirada en el diseño de la página de **Hernán Cajaraville**, alias _El Francés Antiques_, un martillero público. Su objetivo principal es **mostrar los productos a la venta y los próximos remates**, permitiendo al usuario final explorar las antigüedades disponibles.La aplicacion fue creada para la entrega del proyecto final del curso de javaScript de la diplomatura Full Stack Web Development de **["Coderhouse"]([https://www.elfrancesantiques.com](https://www.coderhouse.com/ar/diplomaturas/fullstack/?pipe_source=google&pipe_medium=cpc&pipe_campaign=0&gad_source=1&gad_campaignid=12058006243&gbraid=0AAAAACoxfTL_6P6_IN6W2qN8HzY9_Pf-Z&gclid=Cj0KCQjw3OjGBhDYARIsADd-uX7f2oTACx0UAYFpf9hdjdZmmp8IedjxGH7xZwjclMozpqEaQDfVIAUaAnKjEALw_wcB))**.
+Esta aplicación web esta inspirada en el diseño de la página de **Hernán Cajaraville**, alias _El Francés Antiques_, un martillero público. Su objetivo principal es **mostrar los productos a la venta y los próximos remates**, permitiendo al usuario final explorar las antigüedades disponibles.La aplicacion fue creada para la entrega del proyecto final del curso de javaScript de la diplomatura Full Stack Web Development de **["Coderhouse"](https://www.coderhouse.com/ar/diplomaturas/fullstack/?pipe_source=google&pipe_medium=cpc&pipe_campaign=0&gad_source=1&gad_campaignid=12058006243&gbraid=0AAAAACoxfTL_6P6_IN6W2qN8HzY9_Pf-Z&gclid=Cj0KCQjw3OjGBhDYARIsADd-uX7f2oTACx0UAYFpf9hdjdZmmp8IedjxGH7xZwjclMozpqEaQDfVIAUaAnKjEALw_wcB)**.
 
 ## Características principales:
 
